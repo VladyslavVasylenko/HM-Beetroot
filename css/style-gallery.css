@@ -1,0 +1,138 @@
+
+/*Gallery*/
+.gallery { 
+  width: 1500px;
+  height: 1536px;
+  background-color: #ffe92f;
+  margin: 0 auto;
+  position: relative;
+  bottom: 90px;
+}
+
+.gallery-header { 
+  position: relative;
+  top: 100px;
+}
+
+.gallery-header__title { 
+  font-family: "Raleway";
+  font-size: 90px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+}
+
+.gallery-header__text { 
+  width: 577px;
+  height: 70px;
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+}
+
+/*gallery-section*/
+.gallery-section { 
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.gallery-section-block1 { 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 250px;
+}
+
+.gallery-section-block1__img1 { 
+  width: 770px;
+  height: 550px;
+  position: relative;
+  left: 80px;
+}
+
+.gallery-section-block1__img1--img { 
+  width: 80%;
+}
+
+.gallery-section-block1__img2 { 
+  width: 370px;
+  height: 260px;
+  position: relative;
+  right: 35px;
+}
+
+.gallery-section-block1__img2--img { 
+  width: 80%;
+}
+
+.gallery-section-block1__img3 { 
+  width: 370px;
+  height: 260px;
+  position: relative;
+  left: 350px;
+  bottom: 318px;
+}
+
+.gallery-section-block1__img3--img { 
+  width: 80%;
+}
+
+.gallery-section-block2 { 
+  width: 1170px;
+  display: flex;
+  position: relative;
+  left: 95px;
+  bottom: 80px;
+}
+
+.gallery-section-block2__img1--img{
+  width: 39%;
+  margin-right: 40px;
+}
+
+.gallery-section-block2__img2--img{
+  width: 39%;
+}
+
+/*button*/
+.gallery-section-button { 
+  position: relative;
+  left:450px;
+}
+
+.gallery-section-button__btn { 
+  width: 230px;
+  height: 55px;
+  padding: 25px 33px;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: #5585a2;
+}
+
+.gallery-section-button__text { 
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 23px;
+  position: relative;
+  bottom: 9px;
+}

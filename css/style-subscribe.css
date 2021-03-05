@@ -1,0 +1,79 @@
+
+/*Subscribe*/
+.subscribe { 
+  width: 1500px;
+  height: 500px;
+  background: url(../image/ігиіск.png) no-repeat;
+  margin: 0 auto;
+  position: relative;
+  bottom: 130px;
+}
+
+.subscribe__row{
+  position: relative;
+  top: 115px;
+  bottom: 163px;
+  left: 164px;
+}
+
+.subscribe__title { 
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.68;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+}
+
+.subscribe__text { 
+  width: 541px;
+  height: 43px;
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+  margin-bottom: 31px;
+}
+
+.subscribe-form { 
+  font-family: "Raleway";
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.subscribe-form__input{
+  width: 570px;
+  height: 55px;
+  margin: 31px 30px 0 2px;
+  padding: 22px 417px 22px 15px;
+  border: solid 1px #26262670;
+  opacity: 0.5;
+}
+
+.subscribe-form__btn{
+  width: 170px;
+  height: 55px;
+  padding: 10px 30px;
+  background-color: #96b92c;
+  font-family:" Raleway";
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #ffffff;
+}

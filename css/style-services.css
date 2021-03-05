@@ -1,0 +1,119 @@
+
+/*Services*/
+.services { 
+  width: 1500px;
+  height: 790px;
+  background-color: #70bfff;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.service-list{
+  margin-top: 179px;
+}
+
+.services-list__text { 
+  width: 400px;
+  height: 100px;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:"Raleway";
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #262626;
+  margin-bottom: 20px;
+  padding: 0px 0px 0px 30px;
+}
+
+.service-list__link{
+  color: #262626;
+  text-align: center;
+}
+
+.service-list__link1{
+  color: #262626;
+  position: relative;
+  left: 30px;
+}
+
+.service-list__link2{
+  color: #262626;
+  position: relative;
+  left: 30px;
+}
+
+.service-list__link4{
+  color: #262626;
+  position: relative;
+  left: 30px;
+}
+
+.line {
+  border-left: 1px solid #9d9d9d;
+  height: 100px;
+  padding: 39px 0px 39px 0px;
+  position: relative;
+  left: 80px;
+}
+
+.line1 {
+  border-left: 1px solid #9d9d9d;
+  height: 100px;
+  padding: 39px 0px 39px 0px;
+  position: relative;
+  left: 70px;
+}
+
+.line3 {
+  border-left: 1px solid #9d9d9d;
+  height: 100px;
+  padding: 39px 0px 39px 0px;
+  position: relative;
+  left: 20px;
+  top: 13px;
+}
+
+
+.line4 {
+  border-left: 1px solid #9d9d9d;
+  height: 100px;
+  padding: 39px 0px 39px 0px;
+  position: relative;
+  left: 80px;
+}
+
+.services-list__icon { 
+  margin: 0 30px 0 0;
+}
+
+.services-list__icon3 { 
+  margin: 0 15px 0 0;
+}
+
+.services-image { 
+  height: 527px;
+  background: url(../image/img\ copy.png) no-repeat;
+  position: relative;
+  top: 100px;
+}
+
+.services-image__text { 
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 90px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  position: relative;
+  right: 70px;
+  top: 270px;
+}
