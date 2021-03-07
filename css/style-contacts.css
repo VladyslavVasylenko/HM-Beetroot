@@ -1,8 +1,8 @@
 
 
 .contact { 
-  width: 1500px;
-  height: 866px;
+  max-width: 1500px;
+  min-height: 866px;
   background: url(../image/2ce-bakg.png) no-repeat;
   margin: 0 auto;
 }

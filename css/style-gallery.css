@@ -1,8 +1,8 @@
 
 /*Gallery*/
 .gallery { 
-  width: 1500px;
-  height: 1536px;
+  max-width: 1500px;
+  min-height: 1536px;
   background-color: #ffe92f;
   margin: 0 auto;
   position: relative;

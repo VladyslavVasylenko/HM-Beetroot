@@ -1,8 +1,8 @@
 
 /*Subscribe*/
 .subscribe { 
-  width: 1500px;
-  height: 500px;
+  max-width: 1500px;
+  min-height: 500px;
   background: url(../image/ігиіск.png) no-repeat;
   margin: 0 auto;
   position: relative;
