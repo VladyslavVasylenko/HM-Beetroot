@@ -9,52 +9,60 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div>
     <!--Home page-->
     <div class="home-page">
-            
+
       <!--Logo-->
       <div class="home-page__logo">
         <img src="./image/6-layers.svg" alt="logo">
       </div>
-              
+
       <!--Main-->
       <div class="home-page-main">
         <p class="home-page-main__title">WORKING WITH design LAB</p>
-        <p class="home-page-main__text">We’ve been helping startups launch and grow their businesses. <br> We help you to fill the gap between development,<br> 
+        <p class="home-page-main__text">We’ve been helping startups launch and grow their businesses. <br> We help you to fill the gap between development,<br>
           design and product management.</p>
       </div>
 
       <!--Scroll-->
       <div class="home-page-scroll">
-        <img src="./image/scroll.svg.svg" alt="icon-scroll" class="home-page-scroll__icon">
+        <svg class="home-page-scroll__icon" xmlns="http://www.w3.org/2000/svg" width="23" height="37" viewBox="0 0 23 37">
+          <g>
+            <g>
+              <path  d="M13.154 11.416a1.66 1.66 0 0 1-1.657 1.659 1.66 1.66 0 0 1 0-3.318 1.66 1.66 0 0 1 1.657 1.66zM12.45-.007c5.932.479 10.545 5.451 10.545 11.423V25.49c0 6.347-5.158 11.511-11.5 11.511C5.157 37.001 0 31.837 0 25.491V11.415C-.001 5.44 4.612.468 10.543-.007zm8.637 25.497V11.416c0-5.295-4.303-9.601-9.591-9.601-5.289 0-9.59 4.306-9.59 9.6V25.49c0 5.295 4.302 9.601 9.59 9.601s9.59-4.306 9.59-9.601z"/>
+            </g>
+          </g>
+        </svg>
       </div>
     </div>
 
     <!--About page-->
     <div class="about-page">
-      <fieldset class="row">
-        <legend class="about-page__title">ABOUT US</legend>
-        <p class="about-page__text"> When you work with us, you are  part of a team of committed collaborators. 
-          <br>
-          All aspects of our software development process are integrated, iterative and agile.
-          <br>
-          <br>
-          Our approach unifies design, development and 
-          <br>
-          product management to create exceptional products. 
-          <br>
-          We start each project by understanding your business goals, 
-          the user’s needs and the product requirements. 
-          <br>
-          Then we help translate them into effective and elegant solutions.
-        </p>
-      </fieldset>
+      <div class="container">
+        <fieldset >
+          <legend class="about-page__title">ABOUT US</legend>
+          <p class="about-page__text"> When you work with us, you are  part of a team of committed collaborators.
+            <br>
+            All aspects of our software development process are integrated, iterative and agile.
+            <br>
+            <br>
+            Our approach unifies design, development and
+            <br>
+            product management to create exceptional products.
+            <br>
+            We start each project by understanding your business goals,
+            the user’s needs and the product requirements.
+            <br>
+            Then we help translate them into effective and elegant solutions.
+          </p>
+        </fieldset>
+      </div>
     </div>
 
     <!--Services page-->
     <div class="services-page">
-      <div class="row">
+      <div class="container">
         <fieldset class="fieldset">
           <legend class="services-page__title">SERVICES
           </legend>
@@ -68,12 +76,12 @@
 
     <!--What... page-->
     <div class="what-page">
-      <div class="row">
+      <div class="container">
         <fieldset>
           <legend class="what-page__title">What we do</legend>
-  
+
           <!--Block Design-->
-          <div class="hat-page__design">
+          <div>
             <div class="img">
               <img src="./image/Shape_2.png" alt="image">
             </div>
@@ -81,15 +89,15 @@
               <p class="title">DESIGN</p>
               <p>Our design practice offers a full range of services including branding strategy,
                 <br>
-                interaction and visual design and user experience testing. 
+                interaction and visual design and user experience testing.
                 <br>
               Throughout your project, our designers create and implement visual designs and workflows,
                 <br>
-                solicit user feedback, and work with you to make sure what gets built is what is needed. 
+                solicit user feedback, and work with you to make sure what gets built is what is needed.
               </p>
             </div>
           </div>
-          
+
           <!--Block Development-->
           <div class="what-page__development">
             <div class="img">
@@ -97,14 +105,14 @@
             </div>
             <div class="what-page__text">
               <p class="title">Development </p>
-              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. 
+              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                 <br>
-                They collaborate with your team to write, test, and improve code on a daily basis, using 
+                They collaborate with your team to write, test, and improve code on a daily basis, using
                 <br>
                 proven practices such as test-driven development and pair programing.</p>
             </div>
           </div>
-  
+
           <!--Block Product-->
           <div class="what-page__product">
             <div class="img">
@@ -126,44 +134,44 @@
     <!--Block section page-->
     <div class="section-page">
       <!--Section Topworkz-->
-      <div class="section-page__topworkz">
-        <p class="section-page__name">Topworkz</p>
+      <div class="section-page-item section-page-item--topworkz">
+        <p class="section-page-item__title">Topworkz</p>
       </div>
 
       <!--Section Joint-->
-      <div class="section-page__joint">
-        <p class="section-page__name2">Joint</p>
+      <div class="section-page-item section-page-item--joint">
+        <p class="section-page-item__title">Joint</p>
       </div>
 
       <!--Section Market-->
-      <div class="section-page__market">
-        <p class="section-page__name">Market</p>
+      <div class="section-page-item section-page-item--market">
+        <p class="section-page-item__title">Market</p>
       </div>
 
       <!--Section Worktop-->
-      <div class="section-page__worktop">
-        <p class="section-page__name">Worktop</p>
+      <div class="section-page-item section-page-item--worktop">
+        <p class="section-page-item__title">Worktop</p>
       </div>
 
       <!--Section Lable-->
-      <div class="section-page__lable">
-        <p class="section-page__name5">Lable</p>
+      <div class="section-page-item section-page-item--label">
+        <p class="section-page-item__title">Lable</p>
       </div>
 
       <!--Section Kyiv-->
-      <div class="section-page__kyiv">
-        <p class="section-page__name6">Kyiv</p>
+      <div class="section-page-item section-page-item--kyiv">
+        <p class="section-page-item__title">Kyiv</p>
       </div>
     </div>
 
     <!--Contact page-->
     <div class="contact-page">
-      <div class="row">
+      <div class="container">
         <fieldset>
           <legend class="contact-page__title">CONTACT US</legend>
           <p class="contact-page__text">Planning and development is iterative. Because we are constantly coding and
             <br>
-            testing, the products we build are always ready to go live. This iterative process 
+            testing, the products we build are always ready to go live. This iterative process
             <br>
             allows for changes as business requirements evolve. </p>
           <p class="contact-page__button"><a href="#" class="btn">CONTACT US</a></p>
