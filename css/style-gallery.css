@@ -2,11 +2,9 @@
 /*Gallery*/
 .gallery { 
   max-width: 1500px;
-  min-height: 1536px;
+  min-height: 1436px;
   background-color: #ffe92f;
   margin: 0 auto;
-  position: relative;
-  bottom: 90px;
 }
 
 .gallery-header { 
@@ -15,13 +13,10 @@
 }
 
 .gallery-header__title { 
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 90px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: bold;;
   line-height: 0.3;
-  letter-spacing: normal;
   text-align: center;
   color: #262626;
 }
@@ -29,13 +24,10 @@
 .gallery-header__text { 
   width: 577px;
   height: 70px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 17px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.59;
-  letter-spacing: normal;
   text-align: center;
   color: #262626;
   margin: 0 auto;
@@ -49,7 +41,7 @@
   margin: 0 auto;
 }
 
-.gallery-section-block1 { 
+.gallery-section-block-first { 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -57,29 +49,29 @@
   top: 250px;
 }
 
-.gallery-section-block1__img1 { 
+.gallery-section-block-first__img-first { 
   width: 770px;
   height: 550px;
   position: relative;
   left: 80px;
 }
 
-.gallery-section-block1__img1--img { 
+.gallery-section-block-first__img-first--img { 
   width: 80%;
 }
 
-.gallery-section-block1__img2 { 
+.gallery-section-block-first__img-second { 
   width: 370px;
   height: 260px;
   position: relative;
   right: 35px;
 }
 
-.gallery-section-block1__img2--img { 
+.gallery-section-block-first__img-second--img { 
   width: 80%;
 }
 
-.gallery-section-block1__img3 { 
+.gallery-section-block-first__img-three { 
   width: 370px;
   height: 260px;
   position: relative;
@@ -87,11 +79,11 @@
   bottom: 318px;
 }
 
-.gallery-section-block1__img3--img { 
+.gallery-section-block-first__img-three--img { 
   width: 80%;
 }
 
-.gallery-section-block2 { 
+.gallery-section-block-second { 
   width: 1170px;
   display: flex;
   position: relative;
@@ -99,12 +91,12 @@
   bottom: 80px;
 }
 
-.gallery-section-block2__img1--img{
+.gallery-section-block-second__img-first--img{
   width: 39%;
   margin-right: 40px;
 }
 
-.gallery-section-block2__img2--img{
+.gallery-section-block-second__img-second--img{
   width: 39%;
 }
 
@@ -123,13 +115,10 @@
 }
 
 .gallery-section-button__text { 
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.35;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
   padding: 20px 23px;
