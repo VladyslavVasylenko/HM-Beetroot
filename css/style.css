@@ -15,7 +15,7 @@
   margin: 22px 0px 4px 33px;
 }
 
-.form-nav__item1 { 
+.form-nav__item-first { 
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -24,7 +24,7 @@
   margin-right: 26px;
 }
 
-.form-nav__item2 { 
+.form-nav__item-second { 
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   font-weight: bold;
