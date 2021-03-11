@@ -84,10 +84,8 @@
 }
 
 .main-form label input::placeholder{
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  font-style: normal;
-  letter-spacing: normal;
   line-height: 25px;
   color: #ffffff;
 }
