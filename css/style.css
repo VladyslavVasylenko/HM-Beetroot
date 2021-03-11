@@ -116,7 +116,7 @@
 
 .main-block__title {
   color: #262626;
-  font-family: 'Raleway-Heavy';
+  font-family: 'Raleway-Heavy', sans-serif;
   font-size: 60px;
   font-weight: 400;
   line-height: 25px;
@@ -127,7 +127,7 @@
   width: 368px;
   height: 70px;
   color: #262626;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 17px;
   font-weight: 300;
   line-height: 27px;
