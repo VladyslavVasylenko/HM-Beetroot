@@ -45,9 +45,6 @@
 .home-page-main__title {
   font-size: 54px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 8.64px;
   text-align: center;
   color: #ffffff;
@@ -56,9 +53,6 @@
 
 .home-page-main__text {
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.93;
   letter-spacing: 0.9px;
   text-align: center;
@@ -85,9 +79,6 @@
 .about-page__title {
   font-size: 34px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 5.44px;
   text-align: center;
   color: #3c3c3c;
@@ -97,10 +88,7 @@
 .about-page__text {
   font-size: 16px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #3c3c3c;
   padding: 65px 100px 30px 100px;
@@ -122,9 +110,6 @@
 .services-page__title {
   font-size: 34px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 5.44px;
   text-align: center;
   color: #fff;
@@ -134,10 +119,7 @@
 .services-page__text {
   font-size: 16px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.63;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
   padding: 65px 170px 30px 170px;
@@ -154,9 +136,6 @@
 .what-page__title {
   font-size: 34px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 5.44px;
   text-align: center;
   color: #3c3c3c;
@@ -172,9 +151,6 @@
 .title{
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 3.2px;
   text-align: center;
   color: #3c3c3c;
@@ -184,10 +160,7 @@
 .what-page__text {
   font-size: 14px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.86;
-  letter-spacing: normal;
   text-align: center;
   color: #3c3c3c;
 }
@@ -225,9 +198,6 @@
 .section-page-item__title {
   font-size: 34px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 5.44px;
   text-align: center;
   color: #ffffff;
@@ -260,7 +230,6 @@
 
 .section-page-item--kyiv {
   background: url(../image/Layer_5_copy_6.png) no-repeat;
-
 }
 
 /*CONTACT US*/
@@ -275,9 +244,6 @@
 .contact-page__title {
   font-size: 30.5px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 4.88px;
   text-align: center;
   color: #3c3c3c;
@@ -288,10 +254,7 @@
 .contact-page__text {
   font-size: 16px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.63;
-  letter-spacing: normal;
   text-align: center;
   color: #3c3c3c;
   margin-bottom: 52px;
@@ -307,10 +270,6 @@
 
 .btn{
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 2.56px;
   text-align: center;
   color: #ffffff;
@@ -338,11 +297,6 @@
 
 .footer__text {
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: left;
   color: #3c3c3c;
   position: relative;
