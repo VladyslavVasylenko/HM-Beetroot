@@ -398,6 +398,10 @@ footer div{
 
 
 @media (max-width: 1280px){
+  .header-menu{
+    padding-right:50px;
+  }
+
   .header-menu__menu {
     /*position: absolute;*/
     flex-direction: column;
@@ -423,7 +427,7 @@ footer div{
     position: fixed;
     background-color: #404040;
     top: -100%;
-    left: 10%;
+    left: 15%;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -432,11 +436,13 @@ footer div{
   .menu-btn {
     height: 45px;
     width: 45px;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     background-color: slategray;
+    z-index: 1;
   }
   
   .chck:checked ~ .sidebar {
