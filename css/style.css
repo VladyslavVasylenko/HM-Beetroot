@@ -52,7 +52,6 @@
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 25px;
   text-align: right;
   text-transform: uppercase;
   padding-right: 30px;
@@ -97,7 +96,6 @@
   font-family: 'Raleway-Heavy', sans-serif;
   font-size: 60px;
   font-weight: 400;
-  line-height: 25px;
   margin-bottom: 34px;
 }
 
@@ -107,7 +105,6 @@
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   font-weight: 300;
-  line-height: 27px;
 }
 
 .main-block__button { 
@@ -124,7 +121,6 @@
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 27px;
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -191,7 +187,6 @@ footer div{
   font-family: 'Raleway', sans-serif;
   font-size: 90px;
   font-weight: 700;
-  line-height: 27px;
   margin-bottom: 34px;
 }
 
@@ -201,7 +196,6 @@ footer div{
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   font-weight: 300;
-  line-height: 27px;
 }
 
 /*Blog*/
@@ -213,23 +207,21 @@ footer div{
 /*Header*/
 .header__title { 
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 90px;
   font-weight: 700;
-  line-height: 25px;
   text-align: center;
   padding-top: 100px;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .header__text { 
   max-width: 563px;
   height: 66px;
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 17px;
   font-weight: 300;
-  line-height: 25px;
   text-align: center;
   margin: 0 auto;
 }
@@ -253,7 +245,7 @@ footer div{
 
 .first-line { 
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 25px;
@@ -264,10 +256,9 @@ footer div{
 
 .second-line { 
   color: #ffffff;
-  font-family: "Raleway - Heavy", sans-serif;
+  font-family: 'Raleway - Heavy', sans-serif;
   font-size: 21px;
   font-weight: 400;
-  line-height: 25px;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
@@ -279,21 +270,19 @@ footer div{
   height: 78px;
   color: #ffffff;
   font-size: 20px;
-  line-height: 25px;
   text-align: left;
-  display: flex;
   flex-direction: column;
   padding: 120px 0px 0px 20px;
 }
 
 .blog-main__line-first {
-  font-family: "Raleway - Bold", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .blog-main__line-second {
-  font-family: "Raleway - Light", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: #A9ADA7;
@@ -347,10 +336,9 @@ footer div{
 
 .block-button__button{
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 25px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -403,7 +391,6 @@ footer div{
   }
 
   .header-menu__menu {
-    /*position: absolute;*/
     flex-direction: column;
     align-items: center;
   } 
@@ -507,10 +494,6 @@ footer div{
     text-align: center;
   }
 
-  /*.header-menu{
-    display: none;
-  }*/
-
   .main-block{
     left: 10px;
   }
@@ -578,11 +561,6 @@ footer div{
 
 @media (max-width: 320px){
   .header-logo { 
-    color: #262626;
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 25px;
     padding-left: 50px;
   }
 
