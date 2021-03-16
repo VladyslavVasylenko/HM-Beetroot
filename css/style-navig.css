@@ -72,7 +72,7 @@
     display: none;
   }
 
-  a:-webkit-any-link {
+  .header-menu__item {
     color: #fff;
     cursor: pointer;
   }
@@ -83,7 +83,6 @@
   .content-container {
     max-width: 480px;
   }
-  
 }
 
 @media (max-width: 767px) {
@@ -134,7 +133,5 @@
         padding: 18px 24px;
         margin: 0 6px 12px;
       }
-
   }
-  
 }

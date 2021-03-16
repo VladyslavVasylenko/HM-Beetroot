@@ -97,7 +97,6 @@
   font-family: 'Raleway-Heavy', sans-serif;
   font-size: 60px;
   font-weight: 400;
-  line-height: 25px;
   margin-bottom: 34px;
 }
 
@@ -124,7 +123,6 @@
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 27px;
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -253,7 +251,7 @@ footer div{
 
 .first-line { 
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 25px;
@@ -264,7 +262,7 @@ footer div{
 
 .second-line { 
   color: #ffffff;
-  font-family: "Raleway - Heavy", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 25px;
@@ -287,13 +285,13 @@ footer div{
 }
 
 .blog-main__line-first {
-  font-family: "Raleway - Bold", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .blog-main__line-second {
-  font-family: "Raleway - Light", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: #A9ADA7;
@@ -347,7 +345,7 @@ footer div{
 
 .block-button__button{
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 25px;
@@ -524,11 +522,6 @@ footer div{
 
 @media (max-width: 320px){
   .header-logo { 
-    color: #262626;
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 25px;
     padding-left: 50px;
   }
 

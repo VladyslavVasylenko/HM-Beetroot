@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family:"Raleway", sans-serif;
+  font-family:'Raleway', sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.35;
@@ -105,7 +105,7 @@
 
 .services-image__text { 
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 90px;
   font-weight: 700;
   line-height: 27px;
@@ -126,7 +126,6 @@
   }
 
   .service-list{
-    display: flex;
     align-self: center;
     margin-top: 120px;
   }
