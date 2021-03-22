@@ -558,25 +558,3 @@ footer div{
     padding: 0 15px 0 0px;
   }
 }
-
-@media (max-width: 320px){
-  .header-logo { 
-    padding-left: 50px;
-  }
-
-  .blog-main__block-first{
-    max-width: 280px;
-  }
-
-  .blog-main__block-second{
-    max-width: 280px;
-  }
-
-  .blog-main__block-three{
-    max-width: 280px;
-  }
-
-  .main-block__title{
-    font-size: 40px;
-  }
-}

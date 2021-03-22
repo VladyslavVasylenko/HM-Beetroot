@@ -187,7 +187,6 @@
   color: #b9b9b9;
   font-family: 'Pacifico', cursive;
   font-size: 25px;
-  font-weight: 400;
   text-align: right;
 }
 
@@ -272,29 +271,4 @@
     margin: 34px auto;
   }
 }
-
-@media (max-width:320px){
-  .contacts-header__text { 
-    max-width: 250px;
-    font-size: 14px;
-    margin: 34px auto;
-  }
-
-  .main-form__input-first{
-    max-width: 200px;
-  }
-  
-  .main-form__input-second{
-    max-width: 200px;
-  }
-  
-  .main-form__input-three{
-    max-width: 200px;
-  }
-  
-  .main-form__input-four {
-    max-width: 200px;
-  }
-}
-
 

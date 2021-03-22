@@ -110,23 +110,3 @@
   }
   
 }
-
-@media screen and (max-width:320px){
-  .subscribe__row{
-    padding: 115px 0px 0px 20px;
-  }
-  
-  .subscribe__title { 
-    font-size: 25px;
-  }
-  
-  .subscribe__text { 
-    width: 250px;
-    font-size: 14px;
-  }
-
-  .subscribe-form__input{
-    width: 230px;
-    padding: 22px 80px 22px 15px;
-  }
-}
