@@ -113,25 +113,24 @@
     left: 47%;
     color: #fafafa;
   }
-  
-  @media screen  
+}
+@media screen  
     and (max-width: 736px) 
-    and (orientation: landscape) {
-      
-      .slideout-sidebar {
-        padding: 0;
-      }
-      
-      .slideout-sidebar ul {
-        margin: 0 auto;
-      }
-      
-      .slideout-sidebar ul li {
-        display: block;
-        border-bottom: 0;
-        width: 72px;
-        padding: 18px 24px;
-        margin: 0 6px 12px;
-      }
+    and (orientation: landscape){
+  
+  .slideout-sidebar {
+    padding: 0;
+  }
+  
+  .slideout-sidebar ul {
+    margin: 0 auto;
+  }
+  
+  .slideout-sidebar ul li {
+    display: block;
+    border-bottom: 0;
+    width: 72px;
+    padding: 18px 24px;
+    margin: 0 6px 12px;
   }
 }
